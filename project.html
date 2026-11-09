@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Kevin Robles</title>
-  <meta name="description" content="Kevin Robles is an Analytics Engineer with expertise in programming, Microsoft Power BI, Tableau, Python, SQL, and data visualization. Explore his portfolio to see his work and projects.">
-  <meta name="keywords" content="Kevin Robles, portfolio, data analyst, data scientist, programmer, microsoft power bi, tableau, python, sql, data visualization">
+  <title>SummitBase Outfitters - Project | Kevin Robles</title>
+  <meta name="description" content="End-to-End Data Lifecycle & AI Integration project for SummitBase Outfitters by Kevin Robles. Showcasing Docker, SQL, Python, n8n automation, Power BI (.pbip/TMDL), and AI LLM integration.">
+  <meta name="keywords" content="Kevin Robles, SummitBase Outfitters, data engineering, data analyst, power bi, pbip, python, pandas, sql, docker, n8n, ai integration">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -29,7 +29,7 @@
 
 </head>
 
-<body class="about-page">
+<body class="project-page">
 
   <header id="header" class="header d-flex align-items-center light-background sticky-top">
     <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
@@ -42,10 +42,10 @@
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="about.html" class="active">About</a></li>
+          <li><a href="about.html">About</a></li>
           <li><a href="resume.html">Resume</a></li>
           <li><a href="services.html">Services</a></li>
-          <li><a href="project.html">Project</a></li>
+          <li><a href="project.html" class="active">Project</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
@@ -64,155 +64,92 @@
 
   <main class="main">
 
-    <!-- About Section -->
-    <section id="about" class="about section">
+    <!-- 1. Executive Summary & Business Case Section -->
+    <section id="project-overview" class="about section">
 
-      <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>About Me</h2>
-        <p class="py-3">
-            My academic foundation in Information Technology Administration (ATI) from Tecnológico de Costa Rica (TEC) and Computer Engineering (CE) from Universidad Fidélitas has equipped me with a robust blend of technical and strategic skills to overcome complex challenges in my career.
-            <br>
-            I am a firm believer in lifelong learning; I am as passionate about absorbing new knowledge as I am about sharing and teaching science and technology. I deeply value assertive communication and the synergy of teamwork, elements I consider vital to the success of any project.
-            <br>
-            Beyond code and data, I am an active promoter of organizational culture. I thrive when involved in team-building and leadership initiatives, as demonstrated by my role as Emergency Brigade Leader during my time at PSI.
-            <br>
-            Outside the office, I maintain an active lifestyle through swimming, cycling, running, and calisthenics. I am also a huge music enthusiast, with musical tastes ranging from the complexity of bands like TOOL, A Perfect Circle, and Soen, to the majesty of classical violin and piano concerts.
-            <br>
-            Professionally, my goal is to keep evolving and drive measurable impact as an Analytics Data Engineer, building robust and efficient data solutions in environments such as Databricks, PostgreSQL, and Python. On a personal level, I have two major goals in my sights: learning to play the piano and swimming in open water to witness the awe-inspiring manta ray migration up close.
-              
-          </p>
-      </div><!-- End Section Title -->
+        <h2>SummitBase Outfitters</h2>
+        <p class="py-2">End-to-End Data Lifecycle, Business Intelligence &amp; AI Integration</p>
+      </div>
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="row gy-4 justify-content-center">
-          <div class="col-lg-4">
-            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="portafolio image">
+        <!-- Hero Banner -->
+        <div class="project-hero-banner">
+          <a href="assets/img/project/summitbase-banner.jpg" class="glightbox" data-gallery="summitbase-gallery" title="SummitBase Outfitters - Adventure Tech & Gear">
+            <img src="assets/img/project/summitbase-banner.jpg" alt="SummitBase Outfitters Banner">
+          </a>
+        </div>
+
+        <!-- Badges & Quick Actions -->
+        <div class="d-flex flex-wrap align-items-center justify-content-between gap-3 mb-5">
+          <div>
+            <span class="project-badge"><i class="bi bi-database-check"></i> Data Engineering &amp; BI</span>
+            <span class="project-badge"><i class="bi bi-kanban"></i> Scrum-Agile</span>
+            <span class="project-badge"><i class="bi bi-git"></i> Power BI (.pbip / TMDL)</span>
+            <span class="project-badge"><i class="bi bi-robot"></i> AI Context Ready</span>
           </div>
+          <div class="d-flex flex-wrap gap-2">
+            <a href="https://github.com/Kevinrn-info/Engineering-Data-Analysis_Sales-Overview" target="_blank" class="btn-project-primary">
+              <i class="bi bi-github"></i> View GitHub Repository
+            </a>
+            <a href="#project-deliverables" class="btn-project-outline">
+              <i class="bi bi-cloud-arrow-up"></i> Deliverables &amp; Dashboard
+            </a>
+          </div>
+        </div>
+
+        <!-- Business Case Row -->
+        <div class="row gy-4 align-items-center">
           <div class="col-lg-8 content">
-            <h2>Analytics Data Engineer</h2>
-            <p class="fst-italic py-3">
-              Responsible for designing, building, optimizing, and maintaining robust data pipelines and storage architectures, including Data Warehouses and Data Lakehouses. My primary objective is to transform raw data into clean, modeled, enriched, and high-quality datasets, ensuring they are readily accessible and optimized.
+            <h2><i class="bi bi-compass text-teal me-2" style="color: var(--accent-color);"></i>Business Case &amp; Project Overview</h2>
+            <p class="py-2">
+              This capstone portfolio project demonstrates the management of the <strong>entire data lifecycle</strong>—from initial containerized infrastructure and database configuration to automated ETL workflows, version-controlled Business Intelligence, and AI LLM context integration. Built to enterprise standards, it mirrors a real-world corporate data engineering assignment.
             </p>
-            <div class="row">
-              <div class="col-lg-8">
+            <p class="py-2">
+              For this practical case, the data ecosystem was conceptualized around <strong>SummitBase Outfitters</strong>—an e-commerce and inventory management platform designed for mountaineering, camping, and outdoor exploration enthusiasts. The relational data model spans <strong>7 core entities</strong> (<code>products</code>, <code>customers</code>, <code>orders</code>, <code>order_items</code>, <code>payments</code>, <code>shipments</code>, and <code>returns</code>), evaluating inventory metrics across <strong>1,500 pieces of outdoor gear</strong>, cost margins (<code>unit_cost</code> vs. <code>unit_price</code>), customer acquisition channels, and weight-based shipping logistics.
+            </p>
+            <div class="row mt-3">
+              <div class="col-md-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span><a href="https://www.kevinrn.com" target="_blank">https://www.kevinrn.com</a></span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span><a href="https://api.whatsapp.com/send?phone=50686587630&text=Thank%20you%20for%20reaching%20out.%20I%20have%20received%20your%20message%20and%20will%20get%20back%20to%20you%20as%20soon%20as%20possible.%20Have%20an%20excellent%20day!">+506 8658 7630</a></span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Cartago, Costa Rica</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Methodology:</strong> <span>Scrum-Agile &amp; DataOps</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>BI Governance:</strong> <span>Power BI Project (<code>.pbip</code> / TMDL)</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Automation:</strong> <span>n8n &amp; Python ETL Pipelines</span></li>
                 </ul>
               </div>
-              <div class="col-lg-6">
+              <div class="col-md-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>29</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>krobles.info@gmail.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Data Quality:</strong> <span>Pytest &amp; Power Query Profiling</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>AI Integration:</strong> <span>LLM-Readable Markdown Architecture</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Repository:</strong> <span><a href="https://github.com/Kevinrn-info/Engineering-Data-Analysis_Sales-Overview" target="_blank">Engineering-Data-Analysis_Sales-Overview</a></span></li>
                 </ul>
               </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="portfolio-info p-4 rounded-4 shadow-sm bg-white border">
+              <div class="text-center mb-3">
+                <img src="assets/img/project/data-engineer-icon.jpg" alt="Data Engineering Architecture" class="img-fluid rounded-3" style="max-height: 160px;">
+              </div>
+              <h3 class="fs-5 fw-bold border-bottom pb-2 mb-3">Project Specifications</h3>
+              <ul class="list-unstyled mb-0" style="font-size: 14px; line-height: 2;">
+                <li><strong>Domain:</strong> Outdoor E-Commerce &amp; Logistics</li>
+                <li><strong>Dataset Volume:</strong> 90,000+ Orders / 26,000 Customers</li>
+                <li><strong>Catalog Size:</strong> 1,500 Equipment SKUs</li>
+                <li><strong>Core Stack:</strong> SQL, Docker, Python, Power BI, n8n</li>
+                <li><strong>Author:</strong> Kevin Robles</li>
+              </ul>
             </div>
           </div>
         </div>
 
       </div>
 
-    </section><!-- /About Section -->
+    </section><!-- /Executive Summary Section -->
 
-    <!-- Skills Section -->
-    <section id="skills" class="skills section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Skills</h2>
-        <p>Technical skills I have developed</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row skills-content skills-animation">
-
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill"><span>Power BI</span> <i class="val">100%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>SQL/PostgreSQL</span> <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>Python</span> <i class="val">75%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>Databricks</span> <i class="val">65%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-          </div>
-
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill"><span>Git/Docker</span> <i class="val">70%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>CI/CD</span> <i class="val">60%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>Data Storytelling</span> <i class="val">75%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>SCRUM / Agile</span> <i class="val">85%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </section><!-- /Skills Section -->
-
-    <!-- Stats Section -->
-    <section id="stats" class="stats section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Facts</h2>
-
-        <p>Throughout my tenure as a Data Analytics Project Lead at Servicios PSI Internacional S.A., I drove data governance and operational maintenance to maximize business value and enable strategic, data-driven decisions across multiple U.S. state highway systems. To achieve low-latency insights, I spearheaded the implementation of Pathway, a high-performance, real-time stream processing and ETL framework. By leveraging its Rust-powered engine and unified batch-streaming architecture, I successfully built reactive data pipelines capable of processing continuous traffic logs and state-level infrastructure telemetry, eliminating data staleness and transforming raw operational flows into actionable decisions for state stakeholders.</p>
-
-        <p>As a project lead, I steered teams of up to 10 professionals to evaluate highway infrastructure across 14+ states. We deployed 5 different analysis and insight frameworks to process data for over 650,000 miles of roadway. Ultimately, we turned massive infrastructure telemetry into millions of high-accuracy data points that now fuel critical, daily decisions for Department of Transportation (DOT) agencies.</p>
-      </div><!-- End Section Title -->
+    <!-- Key Dataset Metrics (Stats Section) -->
+    <section id="project-stats" class="stats section light-background">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -220,139 +157,410 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="14" data-purecounter-duration="1" class="purecounter"></span>
-              <p>States</p>
+              <span data-purecounter-start="0" data-purecounter-end="1500" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Outdoor Gear Products</p>
             </div>
-          </div><!-- End Stats Item -->
+          </div>
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Processes</p>
+              <span data-purecounter-start="0" data-purecounter-end="26000" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Customer Profiles</p>
             </div>
-          </div><!-- End Stats Item -->
+          </div>
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="650000" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Miles</p>
+              <span data-purecounter-start="0" data-purecounter-end="90000" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Orders &amp; Transactions</p>
             </div>
-          </div><!-- End Stats Item -->
+          </div>
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Team Members</p>
+              <span data-purecounter-start="0" data-purecounter-end="7" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Lifecycle Phases &amp; Tables</p>
             </div>
-          </div><!-- End Stats Item -->
+          </div>
 
         </div>
 
       </div>
 
-    </section><!-- /Stats Section -->
+    </section><!-- /Key Dataset Metrics Section -->
 
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section">
+    <!-- 2. Technology Stack & 7 Project Phases Section -->
+    <section id="project-architecture" class="resume section">
 
-      <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Testimonials</h2>
-        <p>Staff under my supervision</p>
-      </div><!-- End Section Title -->
+        <h2>Architecture &amp; Technology Stack</h2>
+        <p>Enterprise tools, modular repository design, and the 7-phase engineering workflow behind SummitBase Outfitters</p>
+      </div>
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="swiper init-swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              }
-            }
-          </script>
-          <div class="swiper-wrapper">
+        <!-- Tech Stack Cards -->
+        <div class="row gy-4 mb-5">
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <a href="https://www.linkedin.com/in/jose-moraga-77357922b/" target="_blank"><img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="Jose Moraga profile"></a>
-                <h3>Jose Moraga</h3>
-                <h4>Data entry operator</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Excellent leader, great person, and a true professional.
-                    During my time working with Kevin, I grew both professionally and personally. He's someone who cares about his team and the well-being of everyone, both at work and in their personal lives.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
+          <div class="col-lg-3 col-md-6">
+            <div class="project-card">
+              <h3><i class="bi bi-hdd-network"></i> Infrastructure</h3>
+              <p class="small text-muted mb-3">Containerized deployment, version control, and relational database foundations.</p>
+              <div>
+                <span class="tech-stack-pill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker"> Docker</span>
+                <span class="tech-stack-pill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"> Git</span>
+                <span class="tech-stack-pill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL"> SQL</span>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
+          </div>
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <a href="https://www.linkedin.com/in/alexisramirezq/" target="_blank"><img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="Alexis Ramirez profile"></a>
-                <h3>Alexis Ramirez</h3>
-                <h4>Data entry operator</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>An excellent professional, leader, and most importantly, a wonderful person and colleague. He was always concerned with helping the team in any way he could. Personally, he greatly helped me adapt and grow both personally and professionally in my role.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
+          <div class="col-lg-3 col-md-6">
+            <div class="project-card">
+              <h3><i class="bi bi-code-slash"></i> Data Processing</h3>
+              <p class="small text-muted mb-3">Exploratory data analysis, schema validation, and programmatic cleaning.</p>
+              <div>
+                <span class="tech-stack-pill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"> Python</span>
+                <span class="tech-stack-pill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas"> Pandas</span>
+                <span class="tech-stack-pill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" alt="Jupyter"> Jupyter</span>
+                <span class="tech-stack-pill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/anaconda/anaconda-original.svg" alt="Anaconda"> Anaconda</span>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
+          </div>
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <a href="https://www.linkedin.com/in/keilor-gomez-27b779190/" target="_blank"><img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="Keylor Gomez profile"></a>
-                <h3>Keylor Gomez</h3>
-                <h4>Data entry operator</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>A highly professional individual with excellent skills, knowledge, leadership, and a results-oriented approach. I am confident that his skills and strong commitment will be a valuable asset to any party interested in his services.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
+          <div class="col-lg-3 col-md-6">
+            <div class="project-card">
+              <h3><i class="bi bi-gear-wide-connected"></i> Automation &amp; QA</h3>
+              <p class="small text-muted mb-3">Automated pipeline orchestration, IDE optimization, and unit testing.</p>
+              <div>
+                <span class="tech-stack-pill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code"> VS Code</span>
+                <span class="tech-stack-pill"><i class="bi bi-diagram-3-fill text-warning"></i> n8n</span>
+                <span class="tech-stack-pill"><i class="bi bi-check2-circle text-success"></i> Unit Tests</span>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
+          </div>
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <a href="https://www.linkedin.com/in/rachiry-camacho-422431415/" target="_blank"><img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="Rachiry Camacho profile"></a>
-                <h3>Rachiry Camacho</h3>
-                <h4>Data entry operator</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Excellent leader, always committed to his work, organized, punctual, with a great personality and a good attitude, looking for solutions to improve the problems that occur in his work.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
+          <div class="col-lg-3 col-md-6">
+            <div class="project-card">
+              <h3><i class="bi bi-bar-chart-line"></i> BI, UX/UI &amp; AI</h3>
+              <p class="small text-muted mb-3">Version-controlled semantic models, executive storytelling, and LLM context.</p>
+              <div>
+                <span class="tech-stack-pill"><img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" alt="Power BI"> Power BI (.pbip)</span>
+                <span class="tech-stack-pill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" alt="Canva"> Canva</span>
+                <span class="tech-stack-pill"><i class="bi bi-stars text-primary"></i> Gemini AI LLMs</span>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
+          </div>
+
+        </div>
+
+        <!-- 7 Project Phases Timeline -->
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
+            <h3 class="resume-title">Phases 1 – 4: Foundation &amp; Automation</h3>
+
+            <div class="resume-item">
+              <h4><span class="phase-number">1</span>Environment &amp; Infrastructure Setup</h4>
+              <h5>Git, Docker &amp; Relational SQL</h5>
+              <ul>
+                <li>Configured strict version control with custom <code>.gitignore</code> policies to prevent binary bloat and credential leaks.</li>
+                <li>Containerized the local environment via <strong>Docker</strong> and connected a relational <strong>SQL database</strong> to store raw e-commerce tables securely.</li>
+              </ul>
+            </div>
+
+            <div class="resume-item">
+              <h4><span class="phase-number">2</span>Professional Scrum-Agile Workflow</h4>
+              <h5>Governance &amp; Separation of Concerns</h5>
+              <ul>
+                <li>Executed sprint planning, task tracking, and corporate-grade documentation following <strong>Scrum-Agile</strong> practices.</li>
+                <li>Structured the repository into isolated modules (<code>src/</code>, <code>sql/</code>, <code>tests/</code>, <code>data/</code>, <code>dags/</code>, <code>docs/</code>, <code>notebooks/</code>).</li>
+              </ul>
+            </div>
+
+            <div class="resume-item">
+              <h4><span class="phase-number">3</span>IDE Configuration &amp; Deterministic Testing</h4>
+              <h5>VS Code, PBIP &amp; Unit Tests</h5>
+              <ul>
+                <li>Optimized <strong>Visual Studio Code</strong> to inspect text-based Power BI files (<code>.pbip</code> / TMDL) alongside Python scripts.</li>
+                <li>Implemented <strong>Unit Tests</strong> to validate data integrity and prevent silent regressions prior to downstream processing.</li>
+              </ul>
+            </div>
+
+            <div class="resume-item">
+              <h4><span class="phase-number">4</span>Data Extraction &amp; Automation (n8n)</h4>
+              <h5>Workflow Orchestration</h5>
+              <ul>
+                <li>Designed a complete workflow architecture diagram and built an automated pipeline in <strong>n8n</strong> to centralize data ingestion and schedule recurring updates.</li>
+              </ul>
+            </div>
 
           </div>
-          <div class="swiper-pagination"></div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="250">
+            <h3 class="resume-title">Phases 5 – 7: Analytics, BI &amp; AI</h3>
+
+            <div class="resume-item">
+              <h4><span class="phase-number">5</span>Data Cleaning, Profiling &amp; EDA</h4>
+              <h5>Python, Pandas &amp; Power Query</h5>
+              <ul>
+                <li>Conducted Exploratory Data Analysis (EDA) using <strong>Python, Anaconda, and Jupyter Notebooks</strong> with <strong>Pandas</strong>.</li>
+                <li>Switched Power Query profiling to evaluate the <strong>entire dataset</strong> rather than the default 1,000-row sample, accurately resolving null delivery timestamps (in-transit orders), boolean opt-ins, and split Date/Time columns.</li>
+              </ul>
+            </div>
+
+            <div class="resume-item">
+              <h4><span class="phase-number">6</span>Business Intelligence &amp; PBIP Governance</h4>
+              <h5>Power BI (.pbip / TMDL), UX/UI &amp; Security</h5>
+              <ul>
+                <li>Engineered an interactive <strong>Power BI Dashboard</strong> stored in <code>.pbip</code> format, decoupling the <code>Project.SemanticModel</code> (TMDL) and <code>Project.Report</code> (PBIR) for granular Git diffing of DAX measures and schema relationships.</li>
+                <li>Applied modern <strong>UX/UI principles</strong> across the dashboard, technical reports, and stakeholder presentations in <strong>Canva</strong>.</li>
+              </ul>
+            </div>
+
+            <div class="resume-item">
+              <h4><span class="phase-number">7</span>AI Integration (Standout Feature)</h4>
+              <h5>LLM-Readable Context &amp; Gemini in VS Code</h5>
+              <ul>
+                <li>Authored dedicated AI-readable Markdown context files (<code>For_AI.md</code> and directory-level <code>readme_src.md</code>) tailored for Large Language Models.</li>
+                <li>Integrated <strong>Gemini AI</strong> directly within Visual Studio Code to audit repository context, accelerate DAX/SQL validation, and generate automated analytical insights.</li>
+              </ul>
+            </div>
+
+          </div>
         </div>
 
       </div>
 
-    </section><!-- /Testimonials Section -->
+    </section><!-- /Architecture & Phases Section -->
+
+    <!-- 3. Project Gallery & Technical Captures Section -->
+    <section id="project-gallery" class="portfolio section light-background">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Project Gallery &amp; Technical Evidence</h2>
+        <p>Visual walkthrough of data profiling, schema transformations, and AI integration in SummitBase Outfitters</p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <!-- Capture 1 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="gallery-capture-card">
+              <a href="assets/img/project/base-on-entire-dataset.png" class="glightbox" data-gallery="summitbase-gallery" title="Full Dataset Profiling in Power Query (26,000+ Customer Rows)">
+                <img src="assets/img/project/base-on-entire-dataset.png" alt="Full Dataset Profiling">
+              </a>
+              <div class="capture-body">
+                <h5>1. Full-Dataset Data Profiling</h5>
+                <p>Configured Power Query data type detection to inspect the entire dataset instead of the default 1,000-row sample, ensuring 100% schema accuracy across 26,000 customers.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Capture 2 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="gallery-capture-card">
+              <a href="assets/img/project/correct-null.png" class="glightbox" data-gallery="summitbase-gallery" title="Shipment Status & Null Delivery Timestamp Validation">
+                <img src="assets/img/project/correct-null.png" alt="Null Handling Validation">
+              </a>
+              <div class="capture-body">
+                <h5>2. Logistics &amp; Null Integrity Audit</h5>
+                <p>Audited <code>shipments.csv</code> (83,885 records) to verify that <code>null</code> values in <code>delivered_at</code> strictly correspond to active <code>in_transit</code> orders across carriers (FedEx, DHL, UPS, Royal Mail).</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Capture 3 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="gallery-capture-card">
+              <a href="assets/img/project/date-time.png" class="glightbox" data-gallery="summitbase-gallery" title="Date & Time Granular Splitting in Orders Table">
+                <img src="assets/img/project/date-time.png" alt="Date and Time Transformation">
+              </a>
+              <div class="capture-body">
+                <h5>3. Temporal Normalization (Date &amp; Time)</h5>
+                <p>Normalized <code>order_date</code> timestamps across 90,000 orders into dedicated <code>Date</code> and <code>Time</code> columns to optimize Star Schema calendar joins and intraday peak analysis.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Capture 4 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="gallery-capture-card">
+              <a href="assets/img/project/gemini-vscode.png" class="glightbox" data-gallery="summitbase-gallery" title="AI Integration: Gemini Models Configured in VS Code">
+                <img src="assets/img/project/gemini-vscode.png" alt="Gemini in VS Code">
+              </a>
+              <div class="capture-body">
+                <h5>4. AI Integration in VS Code</h5>
+                <p>Connected Gemini LLMs inside Visual Studio Code alongside structured <code>.md</code> context files to enable AI-assisted code review and semantic model analysis.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Capture 5 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="gallery-capture-card">
+              <a href="assets/img/project/gemini-api-project.png" class="glightbox" data-gallery="summitbase-gallery" title="Secure API Key Management & Cloud Project Setup">
+                <img src="assets/img/project/gemini-api-project.png" alt="Gemini API Configuration">
+              </a>
+              <div class="capture-body">
+                <h5>5. API Governance &amp; Security</h5>
+                <p>Provisioned dedicated Gemini API credentials under strict environment variable isolation to protect secrets during automated analysis workflows.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Capture 6 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="gallery-capture-card">
+              <a href="assets/img/project/summitbase-banner.jpg" class="glightbox" data-gallery="summitbase-gallery" title="SummitBase Outfitters - Brand & UX/UI Identity">
+                <img src="assets/img/project/summitbase-banner.jpg" alt="SummitBase Outfitters Banner">
+              </a>
+              <div class="capture-body">
+                <h5>6. UX/UI Brand &amp; Stakeholder Design</h5>
+                <p>Cohesive visual identity crafted for SummitBase Outfitters across executive presentations, documentation, and interactive Power BI reports.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Project Gallery Section -->
+
+    <!-- 4. Deliverables, Uploads & Interactive Dashboard Hub -->
+    <section id="project-deliverables" class="section">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Project Deliverables &amp; Interactive Hub</h2>
+        <p>Access the source code, technical documentation, Power BI semantic model, and interactive dashboard</p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <!-- Interactive Power BI Embed / Upload Area -->
+        <div class="dashboard-embed-wrapper mb-5">
+          <div class="row justify-content-center">
+            <div class="col-lg-9">
+              <span class="project-badge mb-2"><i class="bi bi-bar-chart-fill"></i> Interactive BI Layer</span>
+              <h3 class="fw-bold mt-2 mb-3">SummitBase Outfitters — Executive Sales &amp; Inventory Dashboard</h3>
+              <p class="text-muted mb-4">
+                Built using Power BI Desktop Projects (<code>.pbip</code>) with version-controlled <strong>TMDL</strong> semantic tables (<code>customers</code>, <code>orders</code>, <code>order_items</code>, <code>payments</code>, <code>products</code>, <code>returns</code>, <code>shipments</code>).
+              </p>
+
+              <!--
+                ========================================================================
+                HOW TO EMBED YOUR LIVE POWER BI DASHBOARD OR VIDEO PREVIEW:
+                When you publish your report to Power BI Service (File -> Embed report -> Publish to web),
+                replace the placeholder div below with your Power BI <iframe> tag:
+                <div class="ratio ratio-16x9 rounded-4 overflow-hidden shadow">
+                  <iframe title="SummitBase Outfitters Power BI" src="YOUR_POWERBI_EMBED_URL" frameborder="0" allowFullScreen="true"></iframe>
+                </div>
+                ========================================================================
+              -->
+              <div class="p-4 bg-white rounded-4 shadow-sm border mb-4">
+                <img src="assets/img/project/summitbase-banner.jpg" alt="SummitBase Outfitters Dashboard Preview" class="img-fluid rounded-3 mb-3" style="max-height: 280px; width: 100%; object-fit: cover;">
+                <div class="d-flex flex-wrap justify-content-center gap-3 mt-3">
+                  <a href="https://github.com/Kevinrn-info/Engineering-Data-Analysis_Sales-Overview/tree/main/src" target="_blank" class="btn-project-primary">
+                    <i class="bi bi-folder2-open"></i> Explore .PBIP &amp; Semantic Model (TMDL)
+                  </a>
+                  <a href="https://github.com/Kevinrn-info/Engineering-Data-Analysis_Sales-Overview" target="_blank" class="btn-project-outline">
+                    <i class="bi bi-download"></i> Download Project.pbix from Repo
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4 Deliverable Cards -->
+        <div class="row gy-4">
+
+          <!-- Deliverable 1: GitHub Repo -->
+          <div class="col-lg-3 col-md-6">
+            <div class="deliverable-box">
+              <div>
+                <div class="deliverable-icon">
+                  <i class="bi bi-github"></i>
+                </div>
+                <h4 class="fs-5 fw-bold">GitHub Repository</h4>
+                <p class="small text-muted">
+                  Complete codebase including <code>src/</code> Python modules, <code>sql/</code> scripts, <code>data/</code> CSVs, <code>.pbip</code> TMDL definitions, and AI context files.
+                </p>
+              </div>
+              <div class="mt-3">
+                <a href="https://github.com/Kevinrn-info/Engineering-Data-Analysis_Sales-Overview" target="_blank" class="btn-project-primary w-100 justify-content-center">
+                  <i class="bi bi-box-arrow-up-right"></i> Open Repository
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Deliverable 2: Architecture Plan PDF -->
+          <div class="col-lg-3 col-md-6">
+            <div class="deliverable-box">
+              <div>
+                <div class="deliverable-icon">
+                  <i class="bi bi-file-earmark-pdf"></i>
+                </div>
+                <h4 class="fs-5 fw-bold">Architecture Action Plan</h4>
+                <p class="small text-muted">
+                  21-page comprehensive technical document detailing Data Lakehouse architecture, Medallion layers, QA testing, and PBIP governance.
+                </p>
+              </div>
+              <div class="mt-3">
+                <a href="assets/project/Data_Analysis_Project_Plan.pdf" target="_blank" class="btn-project-outline w-100 justify-content-center">
+                  <i class="bi bi-file-earmark-arrow-down"></i> View / Download PDF
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Deliverable 3: Technical Documentation DOCX -->
+          <div class="col-lg-3 col-md-6">
+            <div class="deliverable-box">
+              <div>
+                <div class="deliverable-icon">
+                  <i class="bi bi-file-earmark-word"></i>
+                </div>
+                <h4 class="fs-5 fw-bold">Process Documentation</h4>
+                <p class="small text-muted">
+                  Step-by-step documentation of the data cleaning workflow, Power Query transformations, null handling, and Gemini AI setup.
+                </p>
+              </div>
+              <div class="mt-3">
+                <a href="assets/project/SummitBase_Documentation.docx" download class="btn-project-outline w-100 justify-content-center">
+                  <i class="bi bi-download"></i> Download DOCX
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Deliverable 4: Executive Presentation / Google Drive -->
+          <div class="col-lg-3 col-md-6">
+            <div class="deliverable-box">
+              <div>
+                <div class="deliverable-icon">
+                  <i class="bi bi-easel2"></i>
+                </div>
+                <h4 class="fs-5 fw-bold">Executive Presentation</h4>
+                <p class="small text-muted">
+                  Stakeholder presentation and shared cloud folder containing additional visual assets, reports, and business insights.
+                </p>
+              </div>
+              <div class="mt-3">
+                <a href="https://drive.google.com/drive/folders/1ybV7h86U72G7GYlvESibLg-fDu3-b4Iu?usp=sharing" target="_blank" class="btn-project-outline w-100 justify-content-center">
+                  <i class="bi bi-google"></i> Open Project Drive
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Deliverables Section -->
 
   </main>
 
